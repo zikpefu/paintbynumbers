@@ -30,7 +30,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Paint By Numbers Chrome Extension</h3>
 
   <p align="center">
     project_description
