@@ -78,8 +78,18 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+# Overall
+ The goal of this project is to create an extension that will allow the user to paint sections of the picture by numbers.
+# Goals
+* Create a extension for Google Chrome that will allow users to access the application*  Have difficulties of painting: (children vs adult)
+* Have either a daily painting canvas or the user can pick
+* Optional statistics to show the user how fast and accurate they completed all sections of the image
+* Potential move to firefox and other browsing applications
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+
+
+
+<!--  Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
