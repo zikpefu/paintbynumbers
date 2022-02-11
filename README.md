@@ -200,7 +200,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 Scrum Master - Zachary Ikpefua 
 
-Development Team - William Tann, Parker Myslow, Roder Guevara
+Development Team - William Tann, Parker C. Myslow, Roder Guevara
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
