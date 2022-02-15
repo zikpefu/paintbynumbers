@@ -6,9 +6,6 @@
 
 <h3 align="center">Paint By Numbers Web App</h3>
 
-  <p align="center">
-    project_description
-  </p>
 </div>
 
 
