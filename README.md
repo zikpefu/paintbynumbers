@@ -145,12 +145,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
+<!-- ROADMAP -->
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+ -->
+
+See the [open issues](https://github.com/zikpefu/paintbynumbers/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -187,13 +190,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 Scrum Master - Zachary Ikpefua 
 
-Development Team - William Tann, Parker Myslow, Roger Rivas
+Development Team - William Tann, Parker Myslow, [Roger Smith Rivas](https://github.com/RogerSmithR)
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
 Project Link: [https://github.com/zikpefu/paintbynumbers](https://github.com/zikpefu/paintbynumbers)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
