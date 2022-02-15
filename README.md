@@ -50,7 +50,8 @@ The project consists of a web application developed in Asp.Net Core MVC in which
 The scoring will depend on the time the user takes to finish the coloring task and the complexity of the drawing.
 
 # Goals
-* Create a web application in Asp.Net Core MVC that will allow users to register and access the application*  Have difficulties of painting: (children vs adult)
+* Create a web application in Asp.Net Core MVC that will allow users to register and access the application
+* Have difficulties of painting: (children vs adult)
 * Have either a daily painting canvas or the user can pick
 * Optional statistics to show the user how fast and accurate they completed all sections of the image
 * Potential move to firefox and other browsing applications
