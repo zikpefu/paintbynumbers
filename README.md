@@ -187,7 +187,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 Scrum Master - Zachary Ikpefua 
 
-Development Team - William Tann, Parker Myslow, [https://github.com/RogerSmithR](Roger Rivas)
+Development Team - William Tann, Parker Myslow, Roger Rivas
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
