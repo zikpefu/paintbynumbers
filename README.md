@@ -40,7 +40,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 # Overall
- The goal of this project is to create a web application that will allow the user to paint sections of the picture by numbers.
+This web application is a project developed by Clemson Students in the class “Software Development Methodology” in 2022. 
+
+The project consists of a web application developed in Asp.Net Core MVC in which the user will have the opportunity to learn or improve their coloring skills. This project offers different options to the user, from a daily random painting to a specific picture from the catalog in the app. It is required to register with an email account to access all data and compete against other people worldwide. The site provides a graph showing the top ten scoring users.
+
+The scoring will depend on the time the user takes to finish the coloring task and the complexity of the drawing.
+
 # Goals
 * Create a web application in Asp.Net Core MVC that will allow users to register and access the application*  Have difficulties of painting: (children vs adult)
 * Have either a daily painting canvas or the user can pick
