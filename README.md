@@ -122,9 +122,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Scrum Master - Zachary Ikpefua 
+Scrum Master - [Zachary Ikpefua](https://github.com/zikpefu)
 
-Development Team - [William Tann](https://github.com/whtann), Parker Myslow, [Roger Smith Rivas](https://github.com/RogerSmithR)
+Development Team - [William Tann](https://github.com/whtann), [Parker Myslow](https://github.com/pmyslow), [Roger Smith Rivas](https://github.com/RogerSmithR)
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
