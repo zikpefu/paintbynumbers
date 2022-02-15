@@ -30,7 +30,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">Paint By Numbers Chrome Extension</h3>
+<h3 align="center">Paint By Numbers Web App</h3>
 
   <p align="center">
     project_description
@@ -79,9 +79,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 # Overall
- The goal of this project is to create an extension that will allow the user to paint sections of the picture by numbers.
+ The goal of this project is to create a web application that will allow the user to paint sections of the picture by numbers.
 # Goals
-* Create a extension for Google Chrome that will allow users to access the application*  Have difficulties of painting: (children vs adult)
+* Create a web application in Asp.Net Core MVC that will allow users to register and access the application*  Have difficulties of painting: (children vs adult)
 * Have either a daily painting canvas or the user can pick
 * Optional statistics to show the user how fast and accurate they completed all sections of the image
 * Potential move to firefox and other browsing applications
@@ -97,12 +97,8 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
+* [Asp.Net Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview/)
+* [Javascript](https://javascript.com)
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 
@@ -126,20 +122,11 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. You can see the app demo at [https://paintbynumbers.rsa13.com](https://paintbynumbers.rsa13.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/zikpefu/paintbynumbers.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -200,11 +187,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 Scrum Master - Zachary Ikpefua 
 
-Development Team - William Tann, Parker C. Myslow, Roder Guevara
+Development Team - William Tann, Parker Myslow, [https://github.com/RogerSmithR](Roger Rivas)
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/zikpefu/paintbynumbers](https://github.com/zikpefu/paintbynumbers)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
