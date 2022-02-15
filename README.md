@@ -122,11 +122,16 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. You can see the app demo at [https://paintbynumbers.rsa13.com](https://paintbynumbers.rsa13.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/zikpefu/paintbynumbers.git
    ```
+2. Configure the database conexion
+3. In the package console run the command
+   ```sh
+   UpdateMigrations
+   ```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -134,9 +139,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+_To see the demo please refer to the [https://paintbynumbers.rsa13.com](https://paintbynumbers.rsa13.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -144,14 +147,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
-<!-- ROADMAP -->
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
- -->
 
 See the [open issues](https://github.com/zikpefu/paintbynumbers/issues) for a full list of proposed features (and known issues).
 
@@ -193,6 +188,8 @@ Scrum Master - Zachary Ikpefua
 Development Team - William Tann, Parker Myslow, [Roger Smith Rivas](https://github.com/RogerSmithR)
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
+
+Demo Link: [https://paintbynumbers.rsa13.com](https://paintbynumbers.rsa13.com)
 
 Project Link: [https://github.com/zikpefu/paintbynumbers](https://github.com/zikpefu/paintbynumbers)
 
