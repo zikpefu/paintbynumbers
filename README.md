@@ -82,7 +82,6 @@ To get a local copy up and running follow these simple example steps.
 To run the complete project locally is recommendable to use  Visual Studio 2022 and have SQL Server 2019  installed on the computer.
 
 [Download Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
-
 [Download SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ### Installation
