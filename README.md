@@ -78,6 +78,13 @@ The scoring will depend on the time the user takes to finish the coloring task a
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+### Requirements
+To run the complete project locally is recommendable to use  Visual Studio 2022 and have SQL Server 2019  installed on the computer.
+
+[Download Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
+
+[Download SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+
 ### Installation
 
 1. Clone the repo
