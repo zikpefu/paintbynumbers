@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
+[<img alt="alt_text", width=500px, src="wireframes/main-wireframe.png" />]
 <h3 align="center">Paint By Numbers Web App</h3>
 
 </div>
