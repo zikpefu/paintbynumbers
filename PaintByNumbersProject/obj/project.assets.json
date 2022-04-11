@@ -9860,25 +9860,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tannm\\.nuget\\packages\\": {}
+    "C:\\Users\\roger\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tannm\\Desktop\\paintbynumbers\\PaintByNumbersProject\\PaintByNumbersProject.csproj",
+      "projectUniqueName": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\PaintByNumbersProject.csproj",
       "projectName": "PaintByNumbersProject",
-      "projectPath": "C:\\Users\\tannm\\Desktop\\paintbynumbers\\PaintByNumbersProject\\PaintByNumbersProject.csproj",
-      "packagesPath": "C:\\Users\\tannm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tannm\\Desktop\\paintbynumbers\\PaintByNumbersProject\\obj\\",
+      "projectPath": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\PaintByNumbersProject.csproj",
+      "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tannm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

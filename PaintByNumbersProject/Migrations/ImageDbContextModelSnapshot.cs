@@ -3,13 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using PaintByNumbersProject.Data;
 using PaintByNumbersProject.Models;
 
 #nullable disable
 
 namespace PaintByNumbersProject.Migrations
 {
-    [DbContext(typeof(ImageDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class ImageDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

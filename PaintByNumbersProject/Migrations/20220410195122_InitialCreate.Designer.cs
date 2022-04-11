@@ -4,13 +4,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using PaintByNumbersProject.Data;
 using PaintByNumbersProject.Models;
 
 #nullable disable
 
 namespace PaintByNumbersProject.Migrations
 {
-    [DbContext(typeof(ImageDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220410195122_InitialCreate")]
     partial class InitialCreate
     {
