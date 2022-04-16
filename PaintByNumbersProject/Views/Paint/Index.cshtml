@@ -1,42 +1,13 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        <link rel="stylesheet" href="~/css/paintCanvas.css" />
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <title>Canvas</title>
-    </head>
-    <body>
-        <canvas id="canvas"></canvas>
-        <script src="~/js/paintCanvas.js"></script>
-        <input type="button" id="clear" value="Clear" onclick="clearCanvas()" />
-        <br>
-        <label for="color">Color</label>
-        <input type="color" id="color" onchange="setColor(value)" />
-    </body>
+﻿  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/paintCanvas.css">
+    <meta charset="utf-8" />
 
-</html>
-
-
-@*<html>
-  <head>
-    <title>Create HTML5 Canvas JavaScript Paint Bucket Example</title>
   </head>
   <body>
-    <div id="canvasDiv"></div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-    @*<script type="text/javascript" src="~/js/excanvas.js"></script>
-    <script type="text/javascript" src="~/js/html5-canvas-paint-bucket.js"></script>
-    <script type="text/javascript"> $(document).ready(function () {
-    	 paintBucketApp.init();
-        });
-
-</script>
+    <h1>frog_example.png Rough Example</h1>
+    <script src="/js/sketch.js"></script>
+     <button type="button" class="button1" id="1" onclick="toolbox.selectedTool.changeFill(this)">1</button>
+    <button type="button" class="button2" id="2" onclick="toolbox.selectedTool.changeFill(this)">2</button>
+    <button type="button" class="button3" id="3" onclick="toolbox.selectedTool.changeFill(this)">3</button>
   </body>
-</html>
-*@
-
-
-
