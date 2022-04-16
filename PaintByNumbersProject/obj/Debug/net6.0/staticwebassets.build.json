@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2627M89g/U/w/VGF/3dEIMlcct28RqdUcsuyzGwZcMI=",
+  "Hash": "6EM2KHfZJa+19Gqi5nX6+7dLG/SygfIFp3WgfQyympI=",
   "Source": "PaintByNumbersProject",
   "BasePath": "_content/PaintByNumbersProject",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PaintByNumbersProject.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\css\\paintCanvas.css",
+      "SourceId": "PaintByNumbersProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
+      "BasePath": "_content/PaintByNumbersProject",
+      "RelativePath": "css/paintCanvas.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\paintCanvas.css"
+    },
+    {
       "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\css\\site.css",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
@@ -1105,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\images\\frog_example.png",
+      "SourceId": "PaintByNumbersProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
+      "BasePath": "_content/PaintByNumbersProject",
+      "RelativePath": "images/frog_example.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\frog_example.png"
+    },
+    {
       "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\js\\site.js",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
@@ -1120,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\js\\sketch.js",
+      "SourceId": "PaintByNumbersProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
+      "BasePath": "_content/PaintByNumbersProject",
+      "RelativePath": "js/sketch.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sketch.js"
     },
     {
       "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
