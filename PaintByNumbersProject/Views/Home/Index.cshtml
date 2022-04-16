@@ -11,3 +11,8 @@ The project consists of a web application developed in Asp.Net Core MVC in which
 The scoring will depend on the time the user takes to finish the coloring task and the complexity of the drawing.</p>
     <p><a href="https://github.com/zikpefu/paintbynumbers">GitHub Project URL</a></p>
 </div>
+
+@if(!User.Identity.IsAuthenticated){
+    <h4>You have to register or login to use the App.</h4>
+   
+}

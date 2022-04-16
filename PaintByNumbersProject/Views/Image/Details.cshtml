@@ -3,11 +3,15 @@
 @{
     ViewData["Title"] = "Details";
 }
-
-<h1>Details</h1>
-
+<style>
+.img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+</style>
 <div>
-    <h4>ImageModel</h4>
+    <h4>Details of the Image</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -23,8 +27,13 @@
             @Html.DisplayFor(model => model.ImageName)
         </dd>
     </dl>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+    <div class="row">
+        <img src="/Image/@Model.ImageName" loading="lazy" alt="Image with name @Model.Title">
+    </div>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.ImageId">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

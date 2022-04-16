@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6EM2KHfZJa+19Gqi5nX6+7dLG/SygfIFp3WgfQyympI=",
+  "Hash": "CGoZsfkdKvjrJ5XsWQHTsHRT5luNTm1hAY/r6PaXJLA=",
   "Source": "PaintByNumbersProject",
   "BasePath": "_content/PaintByNumbersProject",
   "Mode": "Default",
@@ -1120,6 +1120,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\1200px-Clemson_Tigers_logo.svg222232977.png",
+      "SourceId": "PaintByNumbersProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
+      "BasePath": "_content/PaintByNumbersProject",
+      "RelativePath": "Image/1200px-Clemson_Tigers_logo.svg222232977.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\1200px-Clemson_Tigers_logo.svg222232977.png"
+    },
+    {
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\emblem-Clemson-University222214791.jpg",
+      "SourceId": "PaintByNumbersProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
+      "BasePath": "_content/PaintByNumbersProject",
+      "RelativePath": "Image/emblem-Clemson-University222214791.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\emblem-Clemson-University222214791.jpg"
     },
     {
       "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\images\\frog_example.png",
