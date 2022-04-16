@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CGoZsfkdKvjrJ5XsWQHTsHRT5luNTm1hAY/r6PaXJLA=",
+  "Hash": "TkTHdADEGLMQUc5KW4e+kTG23Ihn7826BFhAgren1m4=",
   "Source": "PaintByNumbersProject",
   "BasePath": "_content/PaintByNumbersProject",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\1200px-Clemson_Tigers_logo.svg222232977.png",
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\example-image.png",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
       "BasePath": "_content/PaintByNumbersProject",
-      "RelativePath": "Image/1200px-Clemson_Tigers_logo.svg222232977.png",
+      "RelativePath": "Image/example-image.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,15 +1136,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\1200px-Clemson_Tigers_logo.svg222232977.png"
+      "OriginalItemSpec": "wwwroot\\Image\\example-image.png"
     },
     {
-      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\emblem-Clemson-University222214791.jpg",
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\js\\manipulator.js",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
       "BasePath": "_content/PaintByNumbersProject",
-      "RelativePath": "Image/emblem-Clemson-University222214791.jpg",
+      "RelativePath": "js/manipulator.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,15 +1153,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\emblem-Clemson-University222214791.jpg"
+      "OriginalItemSpec": "wwwroot\\js\\manipulator.js"
     },
     {
-      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\images\\frog_example.png",
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\js\\p5.js",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
       "BasePath": "_content/PaintByNumbersProject",
-      "RelativePath": "images/frog_example.png",
+      "RelativePath": "js/p5.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,7 +1170,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\frog_example.png"
+      "OriginalItemSpec": "wwwroot\\js\\p5.js"
     },
     {
       "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\js\\site.js",

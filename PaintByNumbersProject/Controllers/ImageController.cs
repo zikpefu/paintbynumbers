@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PaintByNumbersProject.Models;
 using PaintByNumbersProject.Data;
+using System.Drawing;
 
 namespace PaintByNumbersProject.Controllers
 {
@@ -24,6 +25,22 @@ namespace PaintByNumbersProject.Controllers
         }
 
         public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var imageModel = await _context.Images
+                .FirstOrDefaultAsync(m => m.ImageId == id);
+            if (imageModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(imageModel);
+        }
+        public async Task<IActionResult> Paint(int? id)
         {
             if (id == null)
             {
@@ -61,7 +78,7 @@ namespace PaintByNumbersProject.Controllers
             }
             _context.Add(imageModel);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Details", new { id = imageModel.ImageId });
         }
 
         public async Task<IActionResult> Delete(int? id)

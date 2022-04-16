@@ -1,0 +1,17 @@
+﻿@model PaintByNumbersProject.Models.ImageModel
+
+@{
+	ViewData["Title"] = "Painting Image";
+}
+<link rel="stylesheet" type="text/css" href="~/css/paintCanvas.css">
+
+<h1>Paiting image: @Model.Title</h1>
+
+@await Html.PartialAsync("_PaitingButtons")
+
+<script>
+	var imageURL = '/Image/@Model.ImageName';
+	console.log(imageURL);
+</script>
+<script src="/js/p5.js"></script>
+<script src="/js/sketch.js"></script>

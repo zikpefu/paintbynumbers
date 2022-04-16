@@ -1,28 +1,6 @@
-﻿* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+﻿.button{
+    margin-bottom: 15px;
 }
-
-#canvas {
-    border: 2px solid black;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 2000px;
-    height: 2000px;
-}
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-canvas {
-    display: block;
-}
-
 .button1 {
     background-color: #4CAF50;
     color: white;

@@ -12,11 +12,16 @@
 //p5.js function - executes before page load (its possible to add a loading animation here)
 function preload() {
     // preload() runs once
-    img = loadImage('images/frog_example.png');
+    img = loadImage('../../' + imageURL);
     colorMode(RGB);
 }
 
+function determineNewHeight(originalHeight, originalWidth, newWidth) {
+    return (originalHeight / originalWidth) * newWidth;
+}
+
 //p5 function - runs once after preload
+var widthToShow = 500;
 function setup() {
     img.loadPixels();
     createCanvas(img.width, img.height);
@@ -25,6 +30,8 @@ function setup() {
     let start_color = ColorPalette(125, 125, 125, 255);
     toolbox = { 'selectedTool': new FillTool() };
     toolbox.selectedTool.setColor(start_color);
+
+    $('#defaultCanvas0').attr('style', 'width: 100%;height: auto;');
 }
 
 //p5 function - runs forever after setup
