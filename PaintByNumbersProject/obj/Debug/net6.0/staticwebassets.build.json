@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g8Rk0IHV3eA27UYQHl9EANM8CCMen2B0QJYYNUye0/o=",
+  "Hash": "AKAUXqrOXBxXUT3sfskOBtx6sJTMnE6uH1KYm7lcYUk=",
   "Source": "PaintByNumbersProject",
   "BasePath": "_content/PaintByNumbersProject",
   "Mode": "Default",
@@ -1173,12 +1173,12 @@
       "OriginalItemSpec": "wwwroot\\Image\\example-image.png"
     },
     {
-      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\trivial222101475.png",
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\trivial225605829.png",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
       "BasePath": "_content/PaintByNumbersProject",
-      "RelativePath": "Image/trivial222101475.png",
+      "RelativePath": "Image/trivial225605829.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,15 +1187,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\trivial222101475.png"
+      "OriginalItemSpec": "wwwroot\\Image\\trivial225605829.png"
     },
     {
-      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\trivial222101475-PaintingImage.svg",
+      "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\Image\\trivial225605829-PaintingImage.svg",
       "SourceId": "PaintByNumbersProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\",
       "BasePath": "_content/PaintByNumbersProject",
-      "RelativePath": "Image/trivial222101475-PaintingImage.svg",
+      "RelativePath": "Image/trivial225605829-PaintingImage.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,7 +1204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\trivial222101475-PaintingImage.svg"
+      "OriginalItemSpec": "wwwroot\\Image\\trivial225605829-PaintingImage.svg"
     },
     {
       "Identity": "C:\\Users\\roger\\Source\\Repos\\paintbynumbers\\PaintByNumbersProject\\wwwroot\\js\\manipulator.js",

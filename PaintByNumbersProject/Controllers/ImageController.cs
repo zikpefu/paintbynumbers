@@ -3,15 +3,22 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PaintByNumbersProject.Models;
 using PaintByNumbersProject.Data;
-using System.Drawing;
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PaintByNumbersProject.Controllers
 {
+    [Authorize]
     public class ImageController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hostEnvironment;
+        public const string EmptyPaitinImageText = "Empty";
+        private string GetCurrentUserID()
+        {
+            var userName = User.Identity.Name;
+            return _context.Users.FirstOrDefault(x => x.Email == userName).Id;
+        }
 
         public ImageController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
@@ -22,40 +29,7 @@ namespace PaintByNumbersProject.Controllers
         // GET: Image
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Images.ToListAsync());
-        }
-
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var imageModel = await _context.Images
-                .FirstOrDefaultAsync(m => m.ImageId == id);
-            if (imageModel == null)
-            {
-                return NotFound();
-            }
-
-            return View(imageModel);
-        }
-        public async Task<IActionResult> Paint(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var imageModel = await _context.Images
-                .FirstOrDefaultAsync(m => m.ImageId == id);
-            if (imageModel == null)
-            {
-                return NotFound();
-            }
-
-            return View(imageModel);
+            return View(await _context.Images.Where(x => x.UserID == GetCurrentUserID()).ToListAsync());
         }
 
         public IActionResult Create()
@@ -63,12 +37,17 @@ namespace PaintByNumbersProject.Controllers
             return View();
         }
 
-        public const string EmptyPaitinImageText = "Empty";
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ImageId,Title,ImageFile")] ImageModel imageModel)
         {
+            var userID = GetCurrentUserID();
+            imageModel.UserID = userID;
+            if(_context.Images.Count(x=>x.UserID == userID) > 5)
+			{
+                throw new ArgumentException("You cant add more than 5 images");
+			}
             string wwwRootPath = _hostEnvironment.WebRootPath;
             string fileName = Path.GetFileNameWithoutExtension(imageModel.ImageFile.FileName);
             string extension = Path.GetExtension(imageModel.ImageFile.FileName);
@@ -85,9 +64,41 @@ namespace PaintByNumbersProject.Controllers
             return RedirectToAction("Details", new { id = imageModel.ImageId });
         }
 
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _context.Images.Any(x => x.ImageId == id && x.UserID != GetCurrentUserID()))
+            {
+                return NotFound();
+            }
+
+            var imageModel = await _context.Images
+                .FirstOrDefaultAsync(m => m.ImageId == id);
+            if (imageModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(imageModel);
+        }
+        public async Task<IActionResult> Paint(int? id)
+        {
+            if (id == null || _context.Images.Any(x => x.ImageId == id && x.UserID != GetCurrentUserID()))
+            {
+                return NotFound();
+            }
+
+            var imageModel = await _context.Images
+                .FirstOrDefaultAsync(m => m.ImageId == id);
+            if (imageModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(imageModel);
+        }
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Images.Any(x => x.ImageId == id && x.UserID != GetCurrentUserID()))
             {
                 return NotFound();
             }

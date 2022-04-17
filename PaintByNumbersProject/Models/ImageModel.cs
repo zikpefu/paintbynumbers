@@ -20,7 +20,9 @@ namespace PaintByNumbersProject.Models
         [DisplayName("Paint Image Name")]
         public string PaintImageName { get; set; }
 
-        [NotMapped]
+		public string UserID { get; set; }
+
+		[NotMapped]
         [DisplayName("Upload File")]
         public IFormFile ImageFile { get; set; }
     }

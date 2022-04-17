@@ -92,6 +92,10 @@ namespace PaintByNumbersProject.Areas.Identity.Pages.Account
             }
 
             var user = await _userManager.FindByEmailAsync(Input.Email);
+            if(user.Email == "demo@test.com")
+			{
+                return BadRequest("You cant change the demo password.");
+            }
             if (user == null)
             {
                 // Don't reveal that the user does not exist

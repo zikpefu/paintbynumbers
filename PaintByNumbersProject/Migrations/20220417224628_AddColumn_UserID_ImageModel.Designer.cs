@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PaintByNumbersProject.Data;
 
@@ -11,9 +12,10 @@ using PaintByNumbersProject.Data;
 namespace PaintByNumbersProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ImageDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220417224628_AddColumn_UserID_ImageModel")]
+    partial class AddColumn_UserID_ImageModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

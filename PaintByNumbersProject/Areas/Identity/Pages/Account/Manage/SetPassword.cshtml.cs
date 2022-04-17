@@ -92,7 +92,10 @@ namespace PaintByNumbersProject.Areas.Identity.Pages.Account.Manage
             {
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
-
+            if (user.Email == "demo@test.com")
+            {
+                return BadRequest("You cant change the demo password.");
+            }
             var addPasswordResult = await _userManager.AddPasswordAsync(user, Input.NewPassword);
             if (!addPasswordResult.Succeeded)
             {
