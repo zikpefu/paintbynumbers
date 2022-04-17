@@ -7,11 +7,28 @@
 
 <h1>Paiting image: @Model.Title</h1>
 
-@await Html.PartialAsync("_PaitingButtons")
+<div class="row mb-3">
+	<div class="col-md-12">
+		<a href="/Image" class="btn btn-warning mr-3">Back to List</a>
+		@if (Model.PaintImageName != "Empty")
+		{
+			<button type="button" class="btn btn-success mt-1 mr-3 float-right" id="btnSaveImage" onclick="SaveImage()">Save Changes</button>
+		}
+	</div>
+</div>
 
-<script>
-	var imageURL = '/Image/@Model.ImageName';
-	console.log(imageURL);
-</script>
-<script src="/js/p5.js"></script>
-<script src="/js/sketch.js"></script>
+@if (Model.PaintImageName == "Empty")
+{
+	<h5>The image to paint has not been generated yet.</h5>
+	<a href="/Image/Details/@Model.ImageId" class="btn btn-primary mb-3 mr-3 ocultar">Go to Generate the Painting Image!</a>
+}
+else
+{
+	@await Html.PartialAsync("_PaitingButtons")
+	<script>
+		var imageURL = '/Image/@Model.PaintImageName';
+		var ImageID = '@Model.ImageId';
+	</script>
+	<script src="/js/p5.js"></script>
+	<script src="/js/sketch.js"></script>
+}

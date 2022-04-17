@@ -16,6 +16,10 @@ namespace PaintByNumbersProject.Models
         [DisplayName("Image Name")]
         public string ImageName { get; set; }
 
+        [Column(TypeName = "nvarchar(100)")]
+        [DisplayName("Paint Image Name")]
+        public string PaintImageName { get; set; }
+
         [NotMapped]
         [DisplayName("Upload File")]
         public IFormFile ImageFile { get; set; }

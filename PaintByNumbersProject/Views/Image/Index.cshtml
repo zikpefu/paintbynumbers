@@ -30,8 +30,8 @@
                 @Html.DisplayFor(modelItem => item.ImageName)
             </td>
             <td>
-                <a asp-action="Paint" asp-route-id="@item.ImageId">Paint</a> |
-                <a asp-action="Details" asp-route-id="@item.ImageId">Details</a> |
+                <a asp-action="Details" asp-route-id="@item.ImageId">View Details</a> |
+                <a asp-action="Paint" asp-route-id="@item.ImageId">Paint the Image</a> |
                 <a asp-action="Delete" asp-route-id="@item.ImageId">Delete</a>
             </td>
         </tr>

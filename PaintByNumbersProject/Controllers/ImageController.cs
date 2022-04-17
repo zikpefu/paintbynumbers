@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using PaintByNumbersProject.Models;
 using PaintByNumbersProject.Data;
 using System.Drawing;
+using System.Net;
 
 namespace PaintByNumbersProject.Controllers
 {
@@ -62,6 +63,8 @@ namespace PaintByNumbersProject.Controllers
             return View();
         }
 
+        public const string EmptyPaitinImageText = "Empty";
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ImageId,Title,ImageFile")] ImageModel imageModel)
@@ -70,6 +73,7 @@ namespace PaintByNumbersProject.Controllers
             string fileName = Path.GetFileNameWithoutExtension(imageModel.ImageFile.FileName);
             string extension = Path.GetExtension(imageModel.ImageFile.FileName);
             imageModel.ImageName = fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;
+            imageModel.PaintImageName = EmptyPaitinImageText;
             //Save image to wwwroot/Images
             string path = Path.Combine(wwwRootPath + "/Image/", fileName);
             using (var fileStream = new FileStream(path, FileMode.Create))
@@ -102,11 +106,97 @@ namespace PaintByNumbersProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+
             var imageModel = await _context.Images.FindAsync(id);
+            string wwwRootPath = _hostEnvironment.WebRootPath;
+            //REMOVE FILE
+            string filePathImageName = Path.Combine(wwwRootPath + "/Image/", imageModel.ImageName);
+            System.IO.File.Delete(filePathImageName);
+
+            //REMOVE PAITING FILE
+            if (imageModel.PaintImageName != EmptyPaitinImageText)
+            {
+                //REMOVE FILE
+                string filePathPaintImageName = Path.Combine(wwwRootPath + "/Image/", imageModel.PaintImageName);
+                System.IO.File.Delete(filePathPaintImageName);
+            }
             _context.Images.Remove(imageModel);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdatePaitingImage(IFormFile file, int? ImageID = null)
+        {
+            try
+            {
+                if (!_context.Images.Any(x => x.ImageId == ImageID))
+                {
+                    throw new ArgumentException("Did not found the image");
+                }
+                var imageModel = _context.Images.Find(ImageID);
+                if (imageModel.PaintImageName != EmptyPaitinImageText)
+                {
+                    throw new ArgumentException("The paiting image was already created");
+                }
+                string wwwRootPath = _hostEnvironment.WebRootPath;
+                if (file == null || file.Length == 0)
+                {
+                    throw new ArgumentException("Did not receive any file");
+                }
+                string filePaintImageName = Path.GetFileNameWithoutExtension(imageModel.ImageName) + "-PaintingImage" + ".svg";
+                string filePath = Path.Combine(wwwRootPath + "/Image/", filePaintImageName);
+                using (Stream fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(fileStream);
+                }
+                imageModel.PaintImageName = filePaintImageName;
+                await _context.SaveChangesAsync();
+                return Json("success");
+            }
+            catch (Exception ex)
+            {
+                Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                return Json(ex.Message.ToString());
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateChangesPaitingImage(IFormFile file, int? ImageID = null)
+        {
+            try
+            {
+                if (!_context.Images.Any(x => x.ImageId == ImageID))
+                {
+                    throw new ArgumentException("Did not found the image");
+                }
+                var imageModel = _context.Images.Find(ImageID);
+                string wwwRootPath = _hostEnvironment.WebRootPath;
+                if (imageModel.PaintImageName != EmptyPaitinImageText)
+                {
+                    //REMOVE FILE
+                    string filePathPaintImageName = Path.Combine(wwwRootPath + "/Image/", imageModel.PaintImageName);
+                    System.IO.File.Delete(filePathPaintImageName);
+                }
+                if (file == null || file.Length == 0)
+                {
+                    throw new ArgumentException("Did not receive any file");
+                }
+                string filePath = Path.Combine(wwwRootPath + "/Image/", imageModel.PaintImageName);
+                using (Stream fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(fileStream);
+                }
+                await _context.SaveChangesAsync();
+                return Json("success");
+            }
+            catch (Exception ex)
+            {
+                Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                return Json(ex.Message.ToString());
+            }
+        }
+
 
         private bool ImageModelExists(int id)
         {
