@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-PaintByNumbersProject-86B59CFF-CAEE-4844-86D0-041013D1F39D</UserSecretsId>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>

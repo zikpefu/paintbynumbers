@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-PaintByNumbersProject-86B59CFF-CAEE-4844-86D0-041013D1F39D")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaintByNumbersProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]

@@ -799,8 +799,6 @@ C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.AssemblyInfoInputs.cache
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.AssemblyInfo.cs
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.csproj.CoreCompileInputs.cache
-C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.RazorAssemblyInfo.cache
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.RazorAssemblyInfo.cs
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\staticwebassets.build.json
@@ -814,3 +812,5 @@ C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.pdb
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.genruntimeconfig.cache
 C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\ref\PaintByNumbersProject.dll
+C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\roger\Source\Repos\paintbynumbers\PaintByNumbersProject\obj\Debug\net6.0\PaintByNumbersProject.MvcApplicationPartsAssemblyInfo.cache

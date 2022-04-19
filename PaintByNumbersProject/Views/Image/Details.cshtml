@@ -439,15 +439,15 @@ else
 	</div>
 
 	@section Scripts{
-<script src="~/js/paintbynumber/lib/saveSvgAsPng.js"></script>
-<script src="~/js/paintbynumber/lib/materialize.min.js"></script>
-<script src="~/js/paintbynumber/lib/require.js"></script>
-<script src='~/js/paintbynumber/main.js'></script>
-<script>
-	var ImageID = '@Model.ImageId';
-	requirejs(['main'], function (MyApp) {
+	<script src="~/js/paintbynumber/lib/saveSvgAsPng.js"></script>
+	<script src="~/js/paintbynumber/lib/materialize.min.js"></script>
+	<script src="~/js/paintbynumber/lib/require.js"></script>
+	<script src='~/js/paintbynumber/main.js'></script>
+	<script>
+		var ImageID = '@Model.ImageId';
+		requirejs(['main'], function (MyApp) {
 
-	});
-</script>
+		});
+	</script>
 	}
 }
