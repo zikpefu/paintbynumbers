@@ -24,7 +24,11 @@
 }
 else
 {
-	@await Html.PartialAsync("_PaitingButtons")
+	<div class="hor-center">
+		@await Html.PartialAsync("_PaitingButtons")
+		<br />
+		<br />
+</div>
 	<script>
 		var imageURL = '/Image/@Model.PaintImageName';
 		var ImageID = '@Model.ImageId';

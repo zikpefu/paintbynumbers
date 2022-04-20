@@ -91,6 +91,27 @@ function FillTool() {
             case '3':
                 self.setColor(ColorPalette(255, 0, 0, 255));
                 break;
+            case '4':
+                self.setColor(ColorPalette(82, 45, 128,255));
+                break;
+            case '5':
+                self.setColor(ColorPalette(245, 102, 0, 255));
+                break;
+            case '6':
+                self.setColor(ColorPalette(255, 255, 0, 255));
+                break;
+            case '7':
+                self.setColor(ColorPalette(30, 203, 212, 255));
+                break;
+            case '8':
+                self.setColor(ColorPalette(134,115,161,255));
+                break;
+            case '9':
+                self.setColor(ColorPalette(31,58, 61, 255));
+                break;
+            case '10':
+                self.setColor(ColorPalette(121,85,61, 255));
+                break;
             default:
                 return false;
         }

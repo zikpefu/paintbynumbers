@@ -72,6 +72,7 @@ The scoring will depend on the time the user takes to finish the coloring task a
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [p5.js](https://p5js.org)
+* [PaintByNumbers Generator](https://github.com/drake7707/paintbynumbersgenerator)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

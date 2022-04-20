@@ -29,30 +29,68 @@
 }
 /* Red */
 .button4 {
-    background-color: #e7e7e7;
-    color: black;
+    background-color: #522D80;
     color: white;
-    padding: 15px 32px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 500px;
-}
-/* Gray */
+}/* Clemson Purple (82, 45, 128) */
 .button5 {
-    background-color: #555555;
-}
-/* Black */
-/*.button {
-    background-color: #4CAF50;*/ /* Green */
-/*border: none;
+    background-color: #F56600;
     color: white;
-    padding: 15px 32px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 500px;
-}*/
-/*#canvas {
-    border: 1px solid black;
-}*/
+} /*Clemson Orange (245,102, 0) */
+.button6 {
+    background-color: #FFFF00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}/*(255,255,0) */
+
+.button7 {
+    background-color: #1ECBD4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/*30, 203, 212*/
+.button8 {
+    background-color: #8673A1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/*134-115-161*/
+.button9 {
+    background-color: #1F3A3D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/* 031-058-061*/
+.button10 {
+    background-color: #79553D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/* 121-085-061*/
+
+.hor-center {
+    width: 50%;
+    margin: 0 auto;
+}
