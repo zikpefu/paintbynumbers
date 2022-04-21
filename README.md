@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-[<img alt="alt_text", width=500px, src="wireframes/main-wireframe.png" />]
+[<img alt="alt_text", src="PaintByNumbersProject/wwwroot/android-chrome-192x192.png" />]
 <h3 align="center">Paint By Numbers Web App</h3>
 
 </div>
