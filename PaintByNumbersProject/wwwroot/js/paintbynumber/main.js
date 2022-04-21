@@ -3127,7 +3127,7 @@ define("gui", ["require", "exports", "common", "guiprocessmanager", "settings"],
     function updateOutput() {
         return __awaiter(this, void 0, void 0, function* () {
             if (processResult != null) {
-                const showLabels = false;
+                const showLabels = true;
                 const fill = false;
                 const stroke = true;
                 const sizeMultiplier = 3;

@@ -12,7 +12,7 @@
 		<a href="/Image" class="btn btn-warning mr-3">Back to List</a>
 		@if (Model.PaintImageName != "Empty")
 		{
-			<button type="button" class="btn btn-success mt-1 mr-3 float-right" id="btnSaveImage" onclick="SaveImage()">Save Changes</button>
+			<button type="button" class="btn btn-success mt-1 mr-3 float-right" id="btnSaveImage" onclick="SaveImage()" style="display:none;">Save Changes</button>
 		}
 	</div>
 </div>
@@ -24,6 +24,8 @@
 }
 else
 {
+	<h5>Instructions:</h5>
+	<p>To paint each frame, first click on the desired color and then click on the area you want to color.</p>
 	<div class="hor-center">
 		@await Html.PartialAsync("_PaitingButtons")
 		<br />
